@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 // Mengecek apakah form telah dikirim
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Mendapatkan data dari form
@@ -21,4 +21,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Menampilkan pesan sukses
     echo 'Pesanan Anda berhasil diproses. Terima kasih!';
 }
-?>
+?> -->
