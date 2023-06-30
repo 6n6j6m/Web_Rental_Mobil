@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.title-content {
+    font-weight: important;
+}
+
+.content, .content p{
+    margin-top: 40px;
+}
+
+.container {
+    max-width: 600px;
+    max-height: auto;
+    margin-left: 300px;
+    padding: 10px;    
+}
+
+h1 {
+    font-size: 26px;
+    margin-bottom: 11px;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-right: 230px;
+    justify-content: center;
+  }
+
+nav ul li {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color:#fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.button {
+    display: inline-block;
+    background-color:red;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 134px;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    display: inline-block;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+.logo_index{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.login a {
+    display: inline-block;
+    background-color:#555;
+    color: #555;
+    padding: 0px 0px;
+    text-decoration: none;
+    border-radius: 0px;
+    font-size: 0px;
+    margin-right: 0px;
+}
+.login a:hover {
+    background-color: #555;
+}
